@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+                                  /* N A V I  G A T I O N        B A R  */
+.header
+{
+   background-color: #606C5D;
+   padding: 15px;
+   vertical-align: middle;
+   border-bottom: 2px solid whitesmoke;
+}
+
+.header span
+{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Geologica';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.header a
+{
+    float: right;
+    margin-right: 20px;
+    transform: translateX(-70px);
+    margin-top: 7px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: 'Geologica Cursive';
+    font-weight: 500;
+    font-style: normal;
+}
+
+               /* B A N N E R  */
+
+.banner1
+{
+    width: 100%;
+    height: 91vh;
+}
+
+            /* B O X 1 */
+
+.box1
+{
+    width: 65%;
+    background-color: #C1D0B5;
+    height: 100%;
+    padding: 130px 90px;
+    display: inline-block;
+    float: left;
+}
+
+.box1 h1
+{
+    font-size: 100px;
+    margin-bottom: 5px;
+    font-family: 'Hot Dog';
+    font-weight: 900;
+    font-style: normal;
+    color: #546e4d;
+}
+
+.box1 h3
+{
+    font-size: 110px;
+    margin-bottom: 30px;
+    font-family: 'Hot Dog';
+    font-weight: 900;
+    font-style: normal;
+    color: #546e4d;
+}
+
+.box1 p
+{
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 40px;
+    font-family: 'Geologica';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.box1 a
+{
+    padding: 15px 30px;
+    text-decoration: none;
+    color:  whitesmoke;
+    background-color: #606C5D;
+    font-family: 'Geologica Cursive';
+    font-weight: 500;
+    font-style: normal;
+}
+
+               /* B O X 2 */
+
+.banner1 .box2
+{
+    width: 35%;
+    background-color: #606C5D;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.banner1 .box2 .img1
+{
+    width: 400px;
+    margin-left: 90px;    
+}
+
+.banner1 .box2 .img2
+{
+    width: 190px;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%,-40%);
+    transition: 0.5s;
+}
+                    
+              /* H O V E R  E F F E C T */
+
+.img2:hover
+{
+   scale: 1.1;
+}
